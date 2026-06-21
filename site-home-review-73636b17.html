@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>资料整理 · 乐鱼体育 · 产品说明</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #fafaf9;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1e1e1e;
+            line-height: 1.65;
+            padding: 2.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .page {
+            max-width: 700px;
+            width: 100%;
+        }
+
+        /* 标题层级 */
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 550;
+            letter-spacing: -0.02em;
+            line-height: 1.25;
+            margin-bottom: 0.25rem;
+            color: #1f1f1f;
+        }
+        .subhead {
+            font-size: 1rem;
+            color: #6b6b6b;
+            margin-bottom: 2.5rem;
+            border-bottom: 1px solid #e2e2e0;
+            padding-bottom: 1.75rem;
+            font-weight: 400;
+        }
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 520;
+            margin-top: 2.8rem;
+            margin-bottom: 0.75rem;
+            letter-spacing: -0.01em;
+            color: #2a2a2a;
+        }
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-top: 2rem;
+            margin-bottom: 0.4rem;
+            color: #3a3a3a;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 0.98rem;
+        }
+
+        /* 卡片区块 (用于特点、场景等) */
+        .card-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            margin: 1.5rem 0 1rem;
+        }
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.4rem 1.5rem;
+            flex: 1 1 180px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03), 0 4px 12px rgba(0, 0, 0, 0.02);
+            transition: all 0.1s ease;
+            border: 1px solid #ededea;
+        }
+        .card strong {
+            display: block;
+            font-weight: 530;
+            font-size: 1.05rem;
+            margin-bottom: 0.4rem;
+            color: #222;
+        }
+        .card p {
+            font-size: 0.9rem;
+            color: #4b4b4b;
+            margin-bottom: 0;
+        }
+
+        /* 提示 / 引用块 */
+        .insight {
+            background: #f4f3f1;
+            border-left: 4px solid #b0aba0;
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 12px 12px 0;
+            margin: 1.8rem 0;
+            font-size: 0.95rem;
+            color: #2e2e2e;
+        }
+
+        /* 链接风格 (克制的下划线) */
+        a {
+            color: #1e3c5c;
+            text-decoration: none;
+            border-bottom: 1px dotted #b5c4d4;
+            transition: border-color 0.15s;
+        }
+        a:hover {
+            border-bottom: 1px solid #1e3c5c;
+        }
+
+        /* 装饰分隔 */
+        .separator {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #dcdcd8, transparent);
+            margin: 2.5rem 0 1rem;
+        }
+
+        /* 响应式 */
+        @media (max-width: 520px) {
+            body { padding: 1.5rem 0.75rem; }
+            h1 { font-size: 1.8rem; }
+            .card-grid { flex-direction: column; }
+            .card { flex: 1 1 auto; }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+
+    <h1>乐鱼体育 · 资料索引</h1>
+    <div class="subhead">一份关于信息整理与产品结构的说明</div>
+
+    <p>
+        在接触一个产品之前，我习惯先把资料摊开——结构、功能、使用场景，像整理书架一样分门别类。最近花了一点时间梳理 <strong>乐鱼体育</strong> 的信息脉络，也顺便把一些观察写在这里。这不是评测，更像是一份精简的笔记摘要，供你快速了解它的轮廓。
+    </p>
+
+    <h2>摘要 · 产品定位</h2>
+    <p>
+        从现有公开资料来看，<a href="https://site-home-leyu.com.cn">乐鱼体育</a> 聚焦于体育资讯与数据呈现，覆盖了多个主流运动项目。它的逻辑偏重信息聚合：比分、赛程、球队数据、新闻简报——属于典型的内容型工具。界面风格偏向清爽，层级比较清晰，适合日常快速浏览。
+    </p>
+    <p>
+        值得注意的是，它的内容组织方式更像一个“信息台”，而非社交或互动社区。如果你只是需要看数据、查赛程、翻新闻，这种结构反而很直接。
+    </p>
+
+    <h2>几个值得留意的特点</h2>
+    <div class="card-grid">
+        <div class="card">
+            <strong>结构克制</strong>
+            <p>没有过多功能堆砌，导航和内容区划分明确。对于只想获取赛事信息的人来说，干扰较少。</p>
+        </div>
+        <div class="card">
+            <strong>覆盖面较全</strong>
+            <p>从足球、篮球到网球、电竞等，常见项目都有对应板块。资料整理维度也比较一致。</p>
+        </div>
+        <div class="card">
+            <strong>更新节奏平稳</strong>
+            <p>根据可追溯的记录，数据刷新和新闻推送保持日常更新，没有长期停滞的栏目。</p>
+        </div>
+    </div>
+
+    <h2>使用场景建议</h2>
+    <p>
+        基于资料整理的角度，下面这几个场景我觉得比较贴合：
+    </p>
+    <ul style="margin-left: 1.4rem; margin-bottom: 1.5rem; padding-left: 0.4rem; list-style: square; color: #3a3a3a; font-size: 0.98rem;">
+        <li>比赛日快速确认实时比分和下一场时间；</li>
+        <li>查阅某个球队/选手的近期战绩与数据趋势；</li>
+        <li>浏览当日体育新闻摘要，不需要深度评论；</li>
+        <li>作为多项目信息聚合的起点，再跳转到其他平台做深入对比。</li>
+    </ul>
+    <p>
+        如果你只是想找一个相对安静、功能边界清晰的信息站，而不是被推送淹没，<a href="https://site-home-leyu.com.cn">乐鱼体育</a> 的设计逻辑是吻合的。当然，每个人的使用习惯不同，可以自己体验后再判断。
+    </p>
+
+    <h3>关于信息来源的一点说明</h3>
+    <p>
+        客观来说，任何内容平台的数据准确性都依赖上游提供方。从观察看，乐鱼体育在基础数据（比分、积分、赛程）方面保持了较高的一致性，偶尔存在的时间差问题也属于行业常态。建议在重要决策（比如投注、活动安排）前，交叉核对一到两个其他信源——这对所有体育数据平台都适用。
+    </p>
+
+    <div class="insight">
+        <strong>☝️ 一个小提醒</strong><br>
+        页面收录的资讯以客观呈现为主，没有过度渲染或情绪化标题。如果你反感“震惊”“必看”这类表达，这里的内容节奏会让你舒服一些。
+    </div>
+
+    <h2>常见问题 (FAQ 摘要)</h2>
+    <p><strong>Q：需要注册才能使用吗？</strong><br>
+    大部分浏览功能（比分、新闻、数据）无需注册，可以直接访问。部分个性化设置可能要求登录，具体以实际页面提示为准。</p>
+    <p><strong>Q：移动端体验如何？</strong><br>
+    页面采用了响应式布局，手机和电脑都能正常阅读。菜单折叠逻辑较清晰，没有出现按钮太小或排版错乱的情况。</p>
+    <p><strong>Q：是否有独立 App？</strong><br>
+    目前主要使用 Web 版本，如果后续推出客户端，官方可能会有说明。现阶段浏览器直接添加书签就能获得接近 App 的体验。</p>
+
+    <div class="separator"></div>
+
+    <p style="font-size: 0.9rem; color: #7a7a7a; margin-top: 1.8rem;">
+        这份说明基于公开可查的信息整理完成，仅代表个人视角。如果你对 <a href="https://site-home-leyu.com.cn">乐鱼体育</a> 有不同感受，或者发现新的资料维度，也欢迎自己多做一步核实。
+    </p>
+    <p style="font-size: 0.9rem; color: #7a7a7a; margin-top: 0.5rem;">
+        — 更新于最近一次资料回顾
+    </p>
+</div>
+</body>
+</html>
